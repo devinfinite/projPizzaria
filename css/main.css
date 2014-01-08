@@ -62,7 +62,7 @@ textarea {
 
 
 	body {
-	background: #ffffff;
+	background: #c0392b;
 	width: 100%;
 	min-width:885px;
 	max-width:2000px
@@ -73,8 +73,8 @@ textarea {
 	height: 35px;
 	background-color: black;
 	margin: 0 auto;
-	color: #a7babb;
-	border-bottom: 4px solid #c0392b;
+	color: white;
+	border-bottom: 4px solid #f1c40f;;
 }
 
 #alinharsite {
@@ -88,7 +88,7 @@ section {
 	margin-top: 50px;
 	max-width: 1048px;
 	height: 1024px;
-	background-color: #DCDCDC;
+	background-color: #e74c3c;
 }
 
 #voltartopo {
@@ -104,13 +104,13 @@ section {
 	font-family: "Lato", sans-serif;
 	font-size: 12px;
 	margin-top: 6px;
-	color: #262525;
+	color: black;
 	text-align: right;
 }
 
 footer {
 	background: black;
-	border-top: 4px solid #c0392b;
+	border-top: 4px solid #f1c40f;
 	height: 60px;
 	clear: both;
 }
@@ -135,13 +135,13 @@ footer {
 	text-decoration: none;
 	font-family: "Lato", sans-serif;
 	font-size: 46px;
-	color: #c0392b;
+	color: #f1c40f;
 	
 }
 
 #voltartopo a {
 	text-decoration: none;
-	color: #666666;
+	color: white;
 }
 
 
@@ -156,7 +156,7 @@ footer {
 }
 
 #direitos p {
-	margin: 20px;
+	margin: 23px;
 }
 
 
@@ -183,7 +183,7 @@ footer {
 #cssmenu ul li {
   float: left;
   list-style: none;
-  color: #999999;
+  color: white;
   padding: 7px 0px 0;
   margin: 5px 5px 0;
 }
@@ -192,7 +192,7 @@ footer {
   border-radius: 2px 2px 0 0;
   text-decoration: none;
   font-size: 12px;
-  color: #bdc3c7;
+  color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
   font-weight: 400;
   opacity: .9;
@@ -201,7 +201,7 @@ footer {
 #cssmenu ul li.active a {
   background: url(color.png) center bottom;
   display: block;
-  color: white;
+  color: #f1c40f;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.35);
   opacity: 1;
 }
@@ -242,7 +242,7 @@ footer {
 #cssmenu2 ul li {
   float: left;
   list-style: none;
-  color: #999999;
+  color: white
   padding: 7px 0px 0;
   margin: 5px 5px 0;
 }
@@ -251,7 +251,7 @@ footer {
   border-radius: 2px 2px 0 0;
   text-decoration: none;
   font-size: 12px;
-  color: #bdc3c7;
+  color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
   font-weight: 400;
   opacity: .9;
@@ -260,12 +260,83 @@ footer {
 #cssmenu2 ul li.active a {
   background: url(color.png) center bottom;
   display: block;
-  color: white;
+  color: #f1c40f;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.35);
   opacity: 1;
 }
 
-/* Menu das Redes Sociais */
+
+
+
+/* Menu Principal */
+
+
+#menuprincipal ul, #menuprincipal li {list-style: none; margin: 0; padding: 0;}
+#menuprincipal ul li { float: left; min-height: 1px; vertical-align: middle;}
+#menuprincipal ul li.hover,
+#menuprincipal ul li:hover > ul { visibility: visible;}
+#menuprincipal a { display: block; line-height: 1em; text-decoration: none; }
+
+#menuprincipal {
+  background: black;
+  /*border-bottom: 4px solid #1b9bff;*/
+  font-family: "Lato", sans-serif;
+  font-size: 12px; 
+  padding: 0 auto;
+  margin: 0 auto;
+  height: 42px;
+}
+
+  #menuprincipal > ul { *display: inline-block; }
+
+  #menuprincipal:after, #menuprincipal ul:after {
+    content: '';
+    display: block;
+    clear: both; 
+}
+
+#menuprincipal a {
+    background: black;
+    color: white;
+    padding: 0 30px; 
+    height: 42px;
+}
+
+#menutras {
+	height: 46px;
+	background: black;
+}
+
+#menuprincipal ul { text-transform: uppercase; }
+      
+#menuprincipal > ul > li > a { line-height: 48px;  }  
+         
+#menuprincipal ul li:hover > a {
+	  transition: background 0.1s ease-in 0.03s, color 0.1s ease-in 0.03s;
+      background: #e74c3c;
+      color: black;
+      border-bottom: 4px solid #f1c40f;
+      filter: alpha(opacity=100);
+	  
+}
+
+#menuprincipal ul li.active > a
+{
+	background: #e74c3c;
+    color: black;
+    border-bottom: 4px solid #f1c40f;
+	
+}
+
+#menuprincipal ul li.active:hover > a
+{
+	background: #e74c3c;
+    color: white;
+    border-bottom: 4px solid #f1c40f;
+	
+}
+
+/* Menu das Redes Sociais 
 
 #redessociais ul,
 #redessociais ul li,
@@ -385,74 +456,7 @@ textarea:focus, input:focus{
 
 #searchsubmit:focus {
     outline: 0;
-}
-/* Menu Principal */
-
-
-#menuprincipal ul, #menuprincipal li {list-style: none; margin: 0; padding: 0;}
-#menuprincipal ul li { float: left; min-height: 1px; vertical-align: middle;}
-#menuprincipal ul li.hover,
-#menuprincipal ul li:hover > ul { visibility: visible;}
-#menuprincipal a { display: block; line-height: 1em; text-decoration: none; }
-
-#menuprincipal {
-  background: #262525;
-  /*border-bottom: 4px solid #1b9bff;*/
-  font-family: "Lato", sans-serif;
-  font-size: 12px; 
-  padding: 0 auto;
-  margin: 0 auto;
-  height: 42px;
-}
-
-  #menuprincipal > ul { *display: inline-block; }
-
-  #menuprincipal:after, #menuprincipal ul:after {
-    content: '';
-    display: block;
-    clear: both; 
-}
-
-#menuprincipal a {
-    background: #262525;
-    color: #bdc3c7;
-    padding: 0 30px; 
-    height: 42px;
-}
-
-#menutras {
-	height: 46px;
-	background: #262525;
-}
-
-#menuprincipal ul { text-transform: uppercase; }
-      
-#menuprincipal > ul > li > a { line-height: 48px;  }  
-         
-#menuprincipal ul li:hover > a {
-	  transition: background 0.1s ease-in 0.03s, color 0.1s ease-in 0.03s;
-      background: #302f2f;
-      color: white;
-      border-bottom: 4px solid #c0392b;
-      filter: alpha(opacity=100);
-	  
-}
-
-#menuprincipal ul li.active > a
-{
-	background: #302f2f;
-    color: #bdc3c7;
-    border-bottom: 4px solid #c0392b;
-	
-}
-
-#menuprincipal ul li.active:hover > a
-{
-	background: #302f2f;
-    color: white;
-    border-bottom: 4px solid #c0392b;
-	
-}
+} */
 
 
 /* ==========================================================================
