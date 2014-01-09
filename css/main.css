@@ -458,6 +458,7 @@ textarea:focus, input:focus{
 } */
 
 
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -467,20 +468,318 @@ textarea:focus, input:focus{
 		
 	}
 	
+	#logotipo {
+		margin: 0;		
+		margin-top: -45px;
+	}
+	
+	#logotipo a {
+		font-size: 22px;
+		
+		
+	}
+	
+	#cabecalho {
+		height: 50px;
+	}
+	
+	#cssmenu {
+		display: none;
+	}
+	
 	#menuprincipal, #menutras {
 		display: none;
 	}
+	
+		#voltartopo {
+		margin-top: 50px;
+		height: 30px;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-top-color: #BDC3C7;
+		clear: both;
+		width: auto;
+	}
+	
+	#voltartopo h6 {
+		font-family: "Lato", sans-serif;
+		font-size: 12px;
+		margin-top: 6px;
+		color: black;
+		text-align: center;
+	}
+	
+	footer {
+		background: black;
+		border-top: 4px solid #f1c40f;
+		height: 100px;
+		clear: both;
+	}
+	
+	#voltartopo a {
+		text-decoration: none;
+		color: white;
+	}
+	
+	
+	#direitos {
+		font-family: "Lato", sans-serif;
+		font-size: 14px;
+		color: white;
+		width: auto;
+		float: left;
+		height: 60px;
+		text-align: center;
+		
+	}
+	
+	#direitos p {
+		margin: 23px;
+		text-align: center;
+	}
+	
+	#cssmenu2 {
+		float: left;
+		margin-left: 60px;
+	}
+	
+
+
 } 
  
 @media only screen and (max-width: 500px) and (min-width: 340px) { 
+	#logotipo {
+		margin: 0;		
+		margin-top: -45px;
+	}
+	
+	#logotipo a {
+		font-size: 22px;
+		
+		
+	}
+	
+	#cabecalho {
+		height: 50px;
+	}
+	
+	#cssmenu {
+		display: none;
+	}
+	
+	#menuprincipal, #menutras {
+		display: none;
+	}
+	
+		#voltartopo {
+		margin-top: 50px;
+		height: 30px;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-top-color: #BDC3C7;
+		clear: both;
+		width: auto;
+	}
+	
+	#voltartopo h6 {
+		font-family: "Lato", sans-serif;
+		font-size: 12px;
+		margin-top: 6px;
+		color: black;
+		text-align: center;
+	}
+	
+	footer {
+		background: black;
+		border-top: 4px solid #f1c40f;
+		height: 100px;
+		clear: both;
+	}
+	
+	#voltartopo a {
+		text-decoration: none;
+		color: white;
+	}
+	
+	
+	#direitos {
+		font-family: "Lato", sans-serif;
+		font-size: 14px;
+		color: white;
+		width: auto;
+		float: left;
+		height: 60px;
+		text-align: center;
+		
+	}
+	
+	#direitos p {
+		margin: 23px;
+		text-align: center;
+	}
+	
+	#cssmenu2 {
+		float: left;
+		margin-left: 120px;
+	}
 		
 }
 	
 @media only screen and (max-width: 620px) and (min-width: 500px) {
+	#logotipo {
+		margin: 0;		
+		margin-top: -45px;
+	}
+	
+	#logotipo a {
+		font-size: 22px;
+		
+		
+	}
+	
+	#cabecalho {
+		height: 50px;
+	}
+	
+	#cssmenu {
+		display: none;
+	}
+	
+	#menuprincipal, #menutras {
+		display: none;
+	}
+	
+		#voltartopo {
+		margin-top: 50px;
+		height: 30px;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-top-color: #BDC3C7;
+		clear: both;
+		width: auto;
+	}
+	
+	#voltartopo h6 {
+		font-family: "Lato", sans-serif;
+		font-size: 12px;
+		margin-top: 6px;
+		color: black;
+		text-align: center;
+	}
+	
+	footer {
+		background: black;
+		border-top: 4px solid #f1c40f;
+		height: 100px;
+		clear: both;
+	}
+	
+	#voltartopo a {
+		text-decoration: none;
+		color: white;
+	}
+	
+	
+	#direitos {
+		font-family: "Lato", sans-serif;
+		font-size: 14px;
+		color: white;
+		width: auto;
+		float: left;
+		height: 60px;
+		text-align: center;
+		
+	}
+	
+	#direitos p {
+		margin: 23px;
+		text-align: center;
+	}
+	
+	#cssmenu2 {
+		float: left;
+		margin-left: 120px;
+	}
 	
 }
 
 @media only screen and (max-width: 788px) and (min-width: 620px) { 
+	#logotipomobile {
+		margin: 0;		
+		margin-top: -45px;
+	}
+	
+	#logotipomobile a {
+		font-size: 22px;
+		
+		
+	}
+	
+	#cabecalho {
+		height: 50px;
+	}
+	
+	#cssmenu {
+		display: none;
+	}
+	
+	#menuprincipal, #menutras {
+		display: none;
+	}
+	
+		#voltartopo {
+		margin-top: 50px;
+		height: 30px;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-top-color: #BDC3C7;
+		clear: both;
+		width: auto;
+	}
+	
+	#voltartopo h6 {
+		font-family: "Lato", sans-serif;
+		font-size: 12px;
+		margin-top: 6px;
+		color: black;
+		text-align: center;
+	}
+	
+	footer {
+		background: black;
+		border-top: 4px solid #f1c40f;
+		height: 100px;
+		clear: both;
+	}
+	
+	#voltartopo a {
+		text-decoration: none;
+		color: white;
+	}
+	
+	
+	#direitos {
+		font-family: "Lato", sans-serif;
+		font-size: 14px;
+		color: white;
+		width: auto;
+		float: left;
+		height: 60px;
+		text-align: center;
+		
+	}
+	
+	#direitos p {
+		margin: 23px;
+		text-align: center;
+	}
+	
+	#cssmenu2 {
+		float: left;
+		margin-left: 120px;
+	}
+	
+	
 	
 }
 
